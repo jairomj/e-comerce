@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <title>Ecommerce -Contacto</title>
+</head>
+<body>
+    <header class="nombre-sitio">
+        <h1>Tienda <span>Muebles</span></h1>
+    </header>
+
+    <div class="contenedor-navegacion">
+        <nav class="nav-principal contenedor">
+            <a href="index.html">Home</a>
+            <a href="nosotros.html">We are</a>
+            <a href="tienda.html">Market</a>
+            <a href="blog.html">Blog</a>
+            <a href="galeria.html">Gallery</a>
+            <a href="contacto.html">Contact</a>
+        </nav> 
+    </div>
+
+        <main class="contenido-principal contenedor">
+            <h2 class="text-center">Contacto</h2>
+            
+            <form class="formulario">
+                <fieldset>
+                    <legend>Tus datos</legend>
+                    <div class="campo">    
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" type="text" placeholder="Ingresa tu nombre" required>
+                    </div>
+                    <div class="campo">
+                        <label for="asunto">Asunto</label>
+                        <input id="asunto" type="text" placeholder="Asunto">
+                    </div>
+                    <div class="campo">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" placeholder="Email">
+                    </div>
+                    <div class="campo">
+                        <label for="tel">Telefono</label>
+                        <input id="tel" type="tel" placeholder="Telefono">
+                    </div>
+
+                    <div class="campo">
+                        <label for="msj">Mensaje</label>
+                        <textarea id="msj" rows="10" cols="20"></textarea>
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Pais</legend>
+                    <div class="campo">
+                        <label for="pais">Pais</label>
+                        <select name="" id="pais">
+                            <option value="">--Seleccione--</option>
+                            <option value="SV">El Salvador</option>
+                            <option value="NG">Nicaragua</option>
+                            <option value="HH">Honduras</option>
+                            <option value="CR">Costa Rica</option>
+                            <option value="PN">Panama</option>
+                            <option value="GT">Guatemala</option>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Informacion extra</legend>
+                    <div class="campo">
+                        <label for="cliente">Cliente</label>
+                        <input name="choose" type="radio" value="cliente">
+                    </div>
+                    <div class="campo">
+                        <label for="proveedor">Proveedor</label>
+                        <input name="choose" type="radio" value="proveedor">
+                    </div>
+                    <div class="campo">
+                        <label for="catInteres">Categoria de interes</label>
+                        <input list="categorias">
+                        <datalist id="categorias">
+                            <option value="Cocina">
+                            <option value="">
+                            <option value="Cocina">
+                            <option value="Exterior">
+                            <option value="Recamaras">
+                            <option value="Oficinas">
+                            <option value="Televisores">                        
+                        </datalist>
+                    </div>
+                </fieldset>
+                <input class="btn" type="submit" value="Enviar formulario">
+
+            </form>
+        </main>
+
+        
+
+<footer class="site-footer">
+    <div class="grid-footer contenedor">
+            <div>
+                <h3>Categorias</h3>
+                
+                <nav class="footer-menu">
+                    <!-- <p>Numeros de gestion vida seguroa
+                        1271406
+                        1271408
+                    </p> -->
+                <a href="">Cocina</a>
+                <a href="">Oficina</a>
+                <a href="">Jardin</a>
+                <a href="">Cochera</a>
+                <a href="">Dormitorio</a>
+            </nav>
+        </div>
+        <div>
+            <h3>Sobre nosotros</h3>
+            <nav class="footer-menu">
+                <a href="">Nuestra historia</a>
+                <a href="">Mision, Vision y Valores</a>
+                <a href="">Carreras</a>
+                <a href="">Politica de privacidad</a>
+                <a href="">Terminos del servicio</a>
+            </nav>
+        </div>
+        <div>
+            <h3>Soporte</h3>
+            <nav class="footer-menu">
+                <a href="">Preguntas frecuentes</a>
+                <a href="">Ayuda en linea</a>
+                <a href="">Confianza y seguridad</a>
+            </nav>
+        </div>
+    </div>
+    <p class="copyright">Todos los derechos reservados</p>
+</footer>
+    
+</body>
+</html>
